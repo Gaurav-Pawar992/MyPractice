@@ -36,7 +36,7 @@ public class DbProg {
 	         
 	         
 	         while (rs.next()) {
-	        	 System.out.println("Swimming Pool Local Database");
+	        	 System.out.println("Swimming Pool Local Database feature1 5432");
 	             System.out.print("Total Count : " + rs.getLong("Total"));
 	         }
 	      } catch (SQLException e) {
