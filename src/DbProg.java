@@ -37,6 +37,7 @@ public class DbProg {
 	         
 	         while (rs.next()) {
 	             System.out.print("Total Count : " + rs.getLong("Total"));
+	             System.out.print("Total Count : " + rs.getLong("Total"));
 	         }
 	      } catch (SQLException e) {
 	          e.printStackTrace();
